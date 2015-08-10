@@ -1,5 +1,6 @@
 <?php
-    require_once "src/TitleCaseGenerator.php";
+    require_once __DIR__."/../src/TitleCaseGenerator.php";
+    //require_once __DIR__."/../vendor/bin/phpunit";
 
     class TitleCaseGeneratorTest extends PHPUnit_Framework_TestCase
     {
